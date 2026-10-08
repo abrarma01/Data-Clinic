@@ -6,7 +6,7 @@ Data-Clinic is a production-style data engineering platform simulating a healthc
 cloud provider that stores and manages patient data on behalf of hospitals.
 
 Every night, partner hospitals push patient, visit, and lab-result feeds to the 
-platform. PulseGuard validates every batch against a data-quality framework 
+platform. DataClinic validates every batch against a data-quality framework 
 (nulls, duplicates, schema, row counts, referential integrity, value ranges), 
 routes bad records to a dead-letter table instead of failing silently, orchestrates 
 runs with Airflow, and exposes pipeline health as Prometheus metrics with Grafana 
